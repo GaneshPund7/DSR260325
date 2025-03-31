@@ -37,17 +37,17 @@
     // console.log(data);
     
 // Performing opration on string 
- let str = "rajesh";
- let str1 = "dineshdinesh";
- let newstr = str.split('');
-newstr = str1.split('');
-// for(let i=0; i<str1.length; i++){
-    // console.log(i);
-    // if(i == "")
-    const duplicatw = [...new Set(newstr)]
-    console.log(duplicatw);
+//  let str = "rajesh";
+//  let str1 = "dineshdinesh";
+//  let newstr = str.split('');
+// newstr = str1.split('');
+// // for(let i=0; i<str1.length; i++){
+//     // console.log(i);
+//     // if(i == "")
+//     const duplicatw = [...new Set(newstr)]
+//     console.log(duplicatw);
     
-    console.log(newstr);
+//     console.log(newstr);
     
 // }
 // console.log(newstr);
@@ -55,3 +55,14 @@ newstr = str1.split('');
 
 
 
+
+setTimeout(()=>{
+    console.log("hi")
+})
+Promise.resolve().then(()=>{
+    console.log("Hello world");
+    
+})
+ setImmediate(()=>{
+    console.log("hello")
+})
